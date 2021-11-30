@@ -1,0 +1,24 @@
+{
+  "name": "eletcron-sdk-screenshare-bugfix",
+  "version": "1.0.0",
+  "description": "Electron version test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agora-rtc-sdk-ng": "^4.6.3"
+  },
+  "devDependencies": {
+    "electron": "16.0.1"
+  },
+  "agora_electron": {
+    "electron_version": "16.0.1",
+    "platform": "darwin",
+    "prebuilt": true
+  }
+}
